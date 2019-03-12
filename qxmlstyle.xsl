@@ -32,7 +32,7 @@
   </table>
 </tbody>
 </div>
-      <script>
+      <script type="text/javascript">
          $(document).ready(function(){
             $("#demo").on("keyup", function() {
                var value = $(this).val().toLowerCase();
