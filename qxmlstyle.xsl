@@ -3,7 +3,7 @@
 <xsl:template match="/propertyList">
   <html>
       <head>
-        <title>Qcoast Homes Brochure List</title>
+        <title>Q Coast Homes Brochure List</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -12,7 +12,7 @@
       </head>
   <body>
     <div class = "container">
-      <h2>Qcoast Homes Brochures List</h2>
+      <h2>Q Coast Homes Brochures List</h2>
         <input class = "form-control" id = "demo" type = "text" placeholder = "Search price, brochure # or suburb/package here">
         </input>
         <tbody id = "test">
