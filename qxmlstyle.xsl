@@ -13,7 +13,7 @@
   <body>
     <div class = "container">
       <h2>Qcoast Homes Brochures List</h2>
-        <input class = "form-control" id = "demo" type = "text" placeholder = "Search price, brochure # or suburb/packge here">
+        <input class = "form-control" id = "demo" type = "text" placeholder = "Search price, brochure # or suburb/package here">
         </input>
         <tbody id = "test">
          <table class = "table table-bordered table-striped">
@@ -32,7 +32,7 @@
   </table>
 </tbody>
 </div>
-      <script type="text/javascript">
+      <script>
          $(document).ready(function(){
             $("#demo").on("keyup", function() {
                var value = $(this).val().toLowerCase();
